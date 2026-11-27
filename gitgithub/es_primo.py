@@ -1,4 +1,8 @@
+"""Determina si un numero entero es primo."""
+
+
 def es_primo(numero: int) -> bool:
+    """Retorna True si 'numero' es primo, False en caso contrario."""
     if numero < 2:
         return False
     if numero in (2, 3):
